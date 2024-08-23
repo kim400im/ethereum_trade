@@ -36,6 +36,9 @@ git clone https://github.com/youtube-jocoding/gpt-bitcoin.git
 ```
 pip3 install -r requirements.txt
 ```
+```
+pip3 install --break-system-packages -r requirements.txt
+```
 ### .env 파일 만들고 API KEY 넣기
 ```
 vim .env
@@ -59,6 +62,10 @@ vim autotrade.py
 - 그냥 실행
 ```
 python3 autotrade.py
+```
+만약 numpy관련 에러가 난다면 아래 명령을 실행한다.
+```
+pip3 install --break-system-packages numpy==1.26.4
 ```
 - 백그라운드 실행
 ```
