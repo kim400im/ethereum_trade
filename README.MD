@@ -20,6 +20,10 @@ sudo apt update
 ```
 sudo apt upgrade
 ```
+- python 버전 확인하기
+```
+python3 --version
+```
 - pip3 설치
 ```
 sudo apt install python3-pip
